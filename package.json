@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "\"\"\u001b[DThis is a test directory to learn git and node\"\u001b[C",
+  "main": "iml",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmebvek/git-test.git"
+  },
+  "author": "\"\"\u001b[D\u001b[Bibek Thapaliya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsmebvek/git-test/issues"
+  },
+  "homepage": "https://github.com/itsmebvek/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
